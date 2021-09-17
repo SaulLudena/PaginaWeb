@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/cyberbro_001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: arial;
+}
+nav{
+    min-height: 10v;
+    margin: 5vh 11vh 1vh;
+
+}
+nav a{
+    color:rgb(151, 151, 151);
+    text-decoration: none;
+    font-size: 50px;
+    width: 10vh;
+}
+nav a:hover{
+    color: rgba(0, 255, 242, 0.65);
+}
+.about_container{
+    margin: 10vh 10vh 1vh;
+}
+.about_container h1{
+    color: #B5B5B5;
+    font-size: 70px;
+    font-weight: 1;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+
+.about_container p{
+    color: #B5B5B5;
+    font-size: 25px;
+    font-weight: 1;
+    margin-top: 30px;
+}
+.btn_group_1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.btn_group_1 a{
+    border: 1px solid rgb(151, 151, 151);
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    padding: 10px 60px;
+    margin-right:10px ;
+    margin-top: 40px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 2px;
+}
+.btn_group_2 a{
+    border: 1px solid rgb(151, 151, 151);
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    padding: 10px 60px;
+    margin-right:15px ;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 2px;
+}
+.about_container .btn_group_1 a:hover{
+    background-color:rgba(225, 0, 255, 0.198);
+    color: rgb(255, 255, 255);
+}
+.about_container .btn_group_2 a:hover{
+    background-color:rgba(202, 202, 202, 0.198);
+    color: rgb(255, 157, 0);
+}
